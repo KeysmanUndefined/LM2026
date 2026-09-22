@@ -38,7 +38,7 @@ sudo apt install git
 
 |Plugin|Uso|Imagen|
 |-|-|-|
-|**HTML CSS SUPPORT**| *Facilita la escritura de código HTML y CSS mediante autocompletado y sugerencias.*|![HTML CSS SUPPORT](img/LIVESERVER.png)|
+|**HTML CSS SUPPORT**| *Facilita la escritura de código HTML 1 y CSS mediante autocompletado y sugerencias.*|![HTML CSS SUPPORT](img/LIVESERVER.png)|
 |**LIVE PREVIEW**|*Permite ver en tiempo real cómo queda una página web mientras editas el código.*|![HTML CSS SUPPORT](img/LIVEPREVIEW.png)|
 |**MARKDOWN ALL IN ONE**|*Proporciona herramientas para escribir y editar documentos Markdown de forma más rápida.*|![HTML CSS SUPPORT](img/MARKDOWN.png)|
 |**XML - RED HAT**|*Ofrece autocompletado, validación y herramientas para trabajar con archivos*|![HTML CSS SUPPORT](img/XML.png)|
