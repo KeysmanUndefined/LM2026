@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Formulario de incidencia</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <form action="servicio.php" method="get">
+
+        <fieldset>
+
+        <legend>Datos del usuario</legend>
+        <label for="usuario">Usuario</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Nombre y apellidos"/>
+        
+        <br>
+
+        <input type="radio" name="trabajo"  value="A" />Alumno<br />
+        <input type="radio" name="trabajo"  value="P" />profesor<br />
+        </fieldset>
+
+        <fieldset>
+         
+        <legend>Donde se produce</legend>
+        <input type="radio" name="incidencia"  value="D" />Todo el departamento<br />
+        <input type="radio" name="incidencia"  value="A" />Todo el aula<br />
+        <input type="radio" name="incidencia"  value="E" checked/>Solo en un equipo<br />
+        <label for="identifica">Identifica el departamento aula o equipo</label>
+        <input type="text" id="identifica" name="identificador"/>
+        </fieldset>
+
+        <fieldset>
+
+        <legend>Informacion sobre la incidencia</legend>
+        <textarea name="comentario" rows="4" cols="40" placeholder="describe el problema con detalle"/></textarea>
+
+        <br>
+        
+        Nivel de urgencia:
+
+        <br>
+        <input Type="radio" name="urgencia" value="1" />Alto<br />
+        <input Type="radio" name="urgencia" value="2" />Medio<br />
+        <input Type="radio" name="urgencia" value="3" checked />Bajo<br />
+        <label for="check">Me gustaría ser avisado por email cuando se solucione la incidencia</label>
+        <input Type="checkbox" name="check" value="on" /> <br />
+        </fieldset>
+
+        <input type="submit" value="Entrar"/>
+        <input type="reset" value="Limpiar"/>
+    
+
+    </form>
+
+
+    
+</body>
+</html>
