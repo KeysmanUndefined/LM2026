@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>“Selectores CSS3</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+
+
+    <style>
+
+    #uno [lang^="e"]{
+      color: red;
+    }
+
+
+    #dos [lang$="n"]{
+      color: red;
+    }
+
+    #tres[lang$="n"]{
+      color: red;
+    }
+    </style>
+
+
+<section id="uno">
+
+    <h1>coloreamos de rojo los párrafos de esta sección cuyo atributo
+lang empiece por e</h1>
+
+    <p lang="es">Hola Mundo</p>
+
+    <p lang="en">Hello World</p>
+
+    <p>Párrafo sin atributo lang</p>
+
+
+    </section>
+
+
+
+
+
+    <section id="dos">
+
+    <h1>coloreamos de rojo los párrafos de esta sección cuyo atributo
+lang empiece por e</h1>
+
+    <p lang="es">Hola Mundo</p>
+
+    <p lang="en">Hello World</p>
+
+    <p>Párrafo sin atributo lang</p>
+
+
+    </section>
+
+
+    <section id="tres">
+
+    <h1>Cambiamos el tamaño al link que tenga en el atributo title la
+palabra pdf en cualquier sitio</h1>    
+    
+    <a href="pdf/Enunciado de la practica1.pdf" title="Enunciado en formato pdf de la práctica 1"
+    target="_blank">Practica 1 en pdf</a>
+    <br/>
+    <a href="doc/Enunciado de la practica1.docx" title="Enunciado en otro formato de la práctica 1"
+    target="_blank">Practica 1 en otro formato</a
+
+</section>
+
+
+
+
+    
+    
+</body>
+</html>
