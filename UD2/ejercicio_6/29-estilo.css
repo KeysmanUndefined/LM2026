@@ -17,7 +17,7 @@ nav a:link, nav a:visited { text-decoration: none; color: hsl(101, 95%, 48%); ba
 nav a:hover, nav a:active { text-decoration: none; color: hsl(101, 95%, 48%); background-color: #543683; margin: 0.3em; }
 
 /*principal: main:*/
-main { width: 75%; background-color: #deeebc; float: left; }
+main { width: 75%; background-color: sandybrown; float: left; }
 main h1 { text-align: center; padding: 0.5em; color: olive; font-size: 1.4em; }
 main h2 { text-align: center; padding: 0.5em; color: grey; font-size: 1.2em; }
 main h3 { text-align: left; padding: 0.3em 3em; color: #663366; font-size: 1em;  }
@@ -27,7 +27,7 @@ article { margin: 0.5em 3em; padding: 0.5em 2em; background-color: white; border
 article p { text-align: justify; }
 
 /*propaganda: aside*/
-aside { width: 25%; float: left; }
+aside { background-color: rgb(0, 176, 240, 0.2); width: 25%; float: left; }
 #anuncio { margin: 20px; padding: 10px; border: 2px solid blue; background-color: white; }
 #anuncio h1 { font-size: 1.1em; text-align: left; color: olive; padding: 0.2em 0em; }
 #anuncio h2 { font-size: 1.5em; text-align: center; color: grey; padding: 0.5em 0em; }
